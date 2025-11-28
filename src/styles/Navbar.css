@@ -34,3 +34,33 @@
   color: #ff4b4b;
   cursor: pointer;
 }
+
+.navbar {
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f0f0f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    display: none; /* hide menu for now (simple fix) */
+  }
+}
