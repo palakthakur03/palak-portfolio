@@ -1,0 +1,18 @@
+.section {
+  padding: 90px 10%;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #bbbbbb;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}

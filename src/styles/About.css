@@ -1,0 +1,23 @@
+.about {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-details {
+  margin-top: 35px;
+  text-align: left;
+}
+
+.about-details h3 {
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  color: #ff4b4b;
+}
+
+.about-details p {
+  font-size: 17px;
+  color: #ccc;
+  line-height: 1.6;
+}
